@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9 paskaita</title>
+    <style>
+            .grid-container {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-column-gap: 10px;
+                grid-row-gap: 10px;
+            }
+
+            .zalia {
+                background-color: green;
+            }
+
+            .raudona {
+                background-color: red;
+            }
+
+            .geltona {
+                background-color: yellow;
+            }
+            .grid-item-1 {
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 1;
+                grid-row-end: 3;
+
+            }
+
+    </style>
+</head>
+<body>
+    <div class='grid-container'>
+            <div class='grid-item grid-item-1 zalia'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Sed porttitor lectus nibh. Pellentesque in ipsum id orci porta dapibus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui posuere blandit.</div>
+            <div class='grid-item grid-item-2 geltona'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Sed porttitor lectus nibh. Pellentesque in ipsum id orci porta dapibus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui posuere blandit.</div>
+            <div class='grid-item grid-item-3 raudona'>3</div>
+            <div class='grid-item grid-item-4 zalia'>4</div>
+            <div class='grid-item geltona'>5</div>
+            <div class='grid-item raudona'>6</div>
+            <div class='grid-item zalia'>7</div>
+            <div class='grid-item raudona'>8</div>
+            <div class='grid-item geltona'>9</div>
+            <div class='grid-item raudona'>10</div>
+            <div class='grid-item zalia'>11</div>
+            <div class='grid-item raudona'>12</div>
+            <div class='grid-item geltona'>13</div>
+            <div class='grid-item raudona'>14</div>
+            <div class='grid-item zalia'>15</div>
+            <div class='grid-item raudona'>16</div>
+            <div class='grid-item geltona'>17</div>
+            <div class='grid-item geltona'>18</div>
+
+    </div>
+    
+</body>
+</html>
